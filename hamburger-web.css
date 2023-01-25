@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=IBM+Plex+Sans+KR&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Trykker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+
+/* 
+    başlık font-family: 'Staatliches', cursive;
+    fimler  font-family: 'IBM Plex Sans KR', sans-serif;
+    hover font-family: 'Orienta', sans-serif;
+    yedek font-family: 'Trykker', serif;
+    yedek font-family: 'Open Sans', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3) , rgba(0,0,0,0.2)), url('birinci-arka.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    flex-wrap: wrap;
+}
+
+.container h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Orienta', sans-serif;
+    cursor: pointer;
+}
+
+.container ul{
+    display: flex;
+    list-style: none;
+}
+
+.container ul li{
+    margin: 0 20px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}
+
+.container ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+nav header .header-icerik{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav header .header-icerik h3{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Trykker', serif;
+
+}
+
+nav header .header-icerik button{
+    margin-bottom: 200px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+    color: #135478;
+}
+
+nav header .header-icerik button:hover{
+    transform: scale(1.1);
+    font-weight: 200;
+}
+
+main{
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-bottom: 50px;
+}
+
+main section{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+main section .kartlar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section h1{
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    color: #135478;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+main section .kartlar .kartlar-1 {
+    padding: 10px 5px;
+}
+
+main section .kartlar .kartlar-1 img{
+    width: 290px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+main section .kartlar .kartlar-1 img:hover{
+    transform: scale(0.9);
+   
+}
+
+main section .kartlar .kartlar-1 h2{
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#main{
+    padding-top: 10px;
+    border-bottom: 2px solid #333;
+}
+
+#main .alt{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+#main .alt .icerik{
+    display: flex;
+    align-items: center;
+}
+
+#main .alt .icerik img{
+    width: 350px;
+    border-radius: 20px;
+}
+
+#main .alt .icerik .yazi h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+#main .alt .icerik .yazi p{
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    padding: 10px;
+}
+
+main .siparis-2{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+main .siparis .siparis-2 img{
+    width: 350px;
+    border-radius: 20px;
+}
+
+main .siparis .siparis-2  h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+main .siparis .siparis-2 p{
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.siparis-1 .siparis01{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .siparis-1 .siparis01 img{
+    width: 350px;
+    border-radius: 20px;
+}
+
+main .siparis-1 .siparis01 .yazi h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+main .siparis-1 .siparis01 .yazi p{
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 900px){
+   
+    html,body{
+        overflow-x: hidden;
+       }
+    
+    header .container ul li {
+      margin: 0 11px;
+    }
+
+    .container ul li a{
+        font-size: 18px;
+    }
+
+    .container h2{
+       margin-left: 25%;
+       padding-bottom: 10px;
+       padding: 10px;
+    }
+
+    nav{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4) , rgba(0,0,0,0.4)), url('birinci-arka.png');
+    }
+
+    nav header .header-icerik{
+        padding: 0 5px;
+    }
+
+    nav header .header-icerik h3{
+        color: #fff;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+
+    main section{
+        width: 100%;
+    }
+
+    main section .kartlar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section .kartlar .kartlar-1{
+        width: 50%;
+    }
+
+    main section .kartlar .kartlar-1 img{
+        width: 100%;  
+        height: auto;    
+    }
+
+  
+    #main .alt .icerik{
+        display: flex;
+        flex-direction: column;
+        padding: 7px;
+        text-align: center;
+    }
+
+    main .siparis-2{
+        display: flex;
+        flex-direction: column;
+        padding: 7px;
+        text-align: center;
+    }
+
+    .siparis-1 .siparis01{
+        display: flex;
+        flex-direction: column;
+        padding: 7px;
+        text-align: center;
+    }
+
+    main .siparis-1 .siparis01 .yazi h2{
+        padding-top: 20px;
+    }
+
+    main .siparis .siparis-2  h2{
+        padding-top: 20px;
+    }
+
+    #main .alt .icerik .yazi h2{
+        padding-top: 20px;
+    }
+
+
+
+
+}
